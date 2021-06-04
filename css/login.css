@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    
+}
+
+h2{
+    color: #1a4657;
+    font-size: 30px;
+    font-family: 'Roboto', sans-serif;
+}
+a{
+    color: black;
+}
+a:hover{
+    
+    cursor: pointer;
+}
+.loginform{
+    width: 340px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    padding: 40px;
+}
+.wraper{
+    text-align: center;
+    display: grid;
+    border: black solid;
+}
+@media (min-width: 600px)
+{
+    .wraper{
+        width:340px;
+        margin-top: 200px;
+        left: 50%;
+    }
+}
+.entry{
+    display: flex;
+    flex-direction: column;
+}
+.loginform input{
+    color: black;
+    font-size: 20px;
+    width: 100%;
+    background-color: white;
+    border: black solid 1px;
+    height: 50px;
+    font-family: 'Roboto', sans-serif;
+}
+.loginform input:hover{
+    border: black solid 2px;
+    width: 105%;
+}
+@media (max-width:650px){
+    .loginform input{
+        font-size: 15px;
+        height: 40px;
+    }
+}
+.element{
+    padding: 5px 10px;
+    margin-top: 25px;
+}
+.description{
+    padding: 5px 10px;
+    margin-top: 15px;
+    height: 50px;
+    width: 350px;
+}
+#button{
+    left: 50%;
+    color: white;
+    border-radius: 35px;
+    transform: translate(3%);
+    margin-top: 50px;
+    margin-bottom: 25px;
+    height: 60px;
+    width: 150px;
+    background-color: #303f9f;
+    font-family: 'Roboto', sans-serif;;
+}
+
+#button:hover{
+    background-color: #b2ebf2;
+    color: black;
+}

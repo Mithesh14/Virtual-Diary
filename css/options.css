@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+h2{
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    color: #1a4657;
+    font-size: 50px;
+    margin-top: 5rem;
+}
+.home{
+    float: right;
+    font-size: 40px;
+    color: white;
+    margin-right: 4rem;
+    margin-top: 2rem;
+
+}
+.loginform{
+    width: 340px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align:center;
+    padding: 40px;
+}
+.loginform input{
+    color: black;
+    font-size: 20px;
+    width: 100%;
+    border: black solid 1px;
+    height: 50px;
+    font-family: 'Roboto', sans-serif;
+}
+.loginform input:hover{
+    border: black solid 2px;
+    width: 105%;
+}
+@media (max-width:650px){
+    .loginform input{
+        font-size: 15px;
+        height: 40px;
+    }
+}
+.element{
+    padding: 5px 10px;
+    margin-top: 25px;
+}
+.loginform input.description{
+    margin-top: 15px;
+    padding: 5px 10px;
+    height: 150px;
+}
+#button{
+    left: 50%;
+    color: white;
+    border-radius: 35px;
+    margin-top: 20px;
+    margin-bottom: 25px;
+    height: 60px;
+    width: 150px;
+    background-color: #303f9f;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1rem;
+}
+
+#button:hover{
+    background-color: #b2ebf2;
+    color: black;
+}
+
+a
+{
+    text-decoration: none;
+    color: white;
+}
